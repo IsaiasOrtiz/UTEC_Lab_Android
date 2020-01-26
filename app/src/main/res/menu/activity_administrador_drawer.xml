@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Perfil"
+            android:icon="@drawable/userpng"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/usuarios"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Usuarios" />
+        <item
+            android:id="@+id/EdificiosMenu"
+            android:icon="@drawable/edff"
+            android:title="Edificios" />
+
+        <item
+            android:id="@+id/LaboratoriosMenu"
+            android:icon="@drawable/labpng"
+            android:title="Laboratorios" />
+
+
+    </group>
+
+    <item android:title="Carrera o profesion ">
+        <menu>
+            <item
+                android:id="@+id/NuevaCarreraOP"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Nueva" />
+            <item
+                android:id="@+id/EditarCarreraOP"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Editar" />
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/salir"
+                android:icon="@android:drawable/ic_notification_clear_all"
+                android:title="@string/salir" />
+        </menu>
+    </item>
+
+</menu>
